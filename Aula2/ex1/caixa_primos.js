@@ -7,7 +7,8 @@ function adicionar_numero(numero) {
     if (e_primo(numero)) {
         num_primos.push(numero);
     } else
-        console.log("ERROR");
+        throw Error;
+        //console.log("ERROR");
 }
 
 function obter_numeros_primos() {
